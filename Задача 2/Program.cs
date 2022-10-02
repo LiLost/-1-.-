@@ -7,15 +7,11 @@ Console.WriteLine("Введите второе число");
 int b = int.Parse(Console.ReadLine()!);
 if (a > b)
 {
-    int max = a;
-    int min = b;
-    Console.WriteLine($"Максимальное число: {max}");
-    Console.WriteLine($"Минимальное число: {min}");
+    Console.WriteLine($"Максимальное число: {a}");
+    Console.WriteLine($"Минимальное число: {b}");
 }
 else
 {
-    int max = b;
-    int min = a;
-    Console.WriteLine($"Максимальное число: {max}");
-    Console.WriteLine($"Минимальное число: {min}");
+    Console.WriteLine($"Максимальное число: {b}");
+    Console.WriteLine($"Минимальное число: {a}");
 }
